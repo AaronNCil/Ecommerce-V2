@@ -1,0 +1,86 @@
+[
+          {
+             "image":"prodimgresize1",
+             "name": "Airpod Pro Maxes",
+             "desc": "A perfect balance of exhilarating high-fidelity audio and the effortless magic of AirPods. The ultimate personal listening experience is here.",
+             "price":"$550",
+             "category": "gaming"
+          },
+          {
+              "image":"beatsresize2",
+              "name": "Beats Solo3",
+              "desc": "Wireless is your perfect everyday headphone. Get the most out of your music with award winning sound and up to 40 hours of battery life.",
+              "price":"$131",
+              "category": "everyday"
+          },
+          {
+              "image":"prodimgresize3",
+              "name": "Koss Prota Pro",
+              "desc": "Collapsible stereophone combines high-quality sound reproduction with a unique design for the ultimate in convenience and comfort. ",
+              "price":"$50",
+              "category": "everyday"
+          },
+          {
+           "image":"prodimgresize4",
+           "name": "Steel Series Arctis 3",
+           "desc": "Arctis 3 brings pure performance and style, featuring SteelSeries 7.1 Surround Sound. The best wired headset for PC, PS4, Xbox One, Switch and more.",
+           "price":"$70",
+           "category": "gaming"
+          },
+          {
+           "image":"prodimgresize5",
+           "name": "Hyper X Cloud II",
+           "desc": "HyperX Cloud II features a newly designed USB sound card audio control box that amplifies audio and voice for an optimal Hi Fi gaming experience",
+           "price":"$70",
+           "category": "gaming"
+          },
+          {
+           "image":"prodimgresize6",
+           "name": "Bose Quietcomfort",
+           "desc": "True wireless QuietComfort earbuds from Bose offer adjustable noise cancelling, lifelike audio, and a secure, comfortable fit. ",
+           "price":"$229.00",
+           "category": "everyday"
+          },
+          {
+           "image":"prodimgresize7",
+           "name": "Razer Kraken X",
+           "desc": "The ultra-light Razer Kraken X is a multi-platform gaming headset built with superior comfort, Extended durability and crystal-clear sound.",
+           "price":"$550",
+           "category": "gaming"
+          },
+          {
+           "image":"prodimgresize8",
+           "name": "Sony wh- 1000xm5",
+           "desc": "The WH-1000XM5 headphones rewrite the rules for distraction-free listening. 2 processors control 8 microphones for unprecedented noise cancellation and exceptional call quality.",
+           "price":"$400",
+           "category": "everyday"
+          },
+          {
+           "image":"prodimgresize9",
+           "name": "JBL Tune 510BT ",
+           "desc": "The JBL Tune 510BT headphones wirelessly stream powerful JBL Pure Bass sound for up to 40 hours. Grab them and fill your day with music!",
+           "price":"$50",
+           "category": "studio"
+          },
+          {
+           "image":"prodimgresize10",
+           "name": "Marshall Major IV",
+           "desc": "The iconic headphones from Marshall with 80+ solid hours of wireless playtime, wireless charging and a new, improved ergonomic design.",
+           "price":"$107",
+           "category": "studio"
+          },
+          {
+           "image":"prodimgresize1",
+           "name": "Sennheiser Momentum 4 Wireless",
+           "desc": "With an outstanding battery life of up to 60 hours, smart features for effortless ease of use, and take anywhere fold-flat design, it’s the ideal companion for amazing sound wherever you go.",
+           "price":"$350",
+           "category": "studio"
+          },
+          {
+           "image":"prodimgresize12",
+           "name": "Bang & Olufsen Beoplay",
+           "desc": "The stylish Bang & Olufsen Beoplay EQ earphones deliver relatively accurate true wireless audio and solid noise cancellation",
+           "price":"$500",
+           "category": "studio"
+          }
+]
