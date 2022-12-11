@@ -4,6 +4,7 @@ import image1 from '../images/apple.jpg'
 import image2 from '../images/headphone3.jpg'
 import image3 from '../images/headphones.jpg'
 import image4 from "../images/headrunning.jpg"
+import {Link} from 'react-router-dom';
 
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
           <h1>Immerse yourself In Quality</h1>
           <p>We strive to provide our customers with Hi-Quality headphones at an affordable price point.
               Sound too good to be true? Click the Explore button and see for yourself!</p>
-          <a href="products.html" id="btn">EXPLORE</a>
+              <Link to="/products" id='btn'>EXPLORE</Link>
       </div>
       
       <section class="col">
@@ -30,7 +31,7 @@ const Home = () => {
         <div class="botton-modal">
           Shop now to experince the best quality headphones.
         </div>
-      <a class="btn" href="products.html">SHOP NOW!</a>
+        <Link to="/products" className='btn'>EXPLORE</Link>
     </aside>
 </main>
     )

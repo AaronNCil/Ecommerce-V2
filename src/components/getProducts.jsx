@@ -29,18 +29,18 @@ export default class Productlist extends React.Component {
         return (
             
             <div>
-                <h6>Filter By Category: </h6>
-                <div id="fButtons">
-                    <button id="button" className="btn btn-light" onClick={this.myFilter("All")}>All</button>
-                    <button id="button" className="btn btn-light" onClick={this.myFilter("gaming")}>Gaming</button>
-                    <button id="button" className="btn btn-light" onClick={this.myFilter("studio")}>Studio</button>
-                    <button id="button" className="btn btn-light" onClick={this.myFilter("everyday")}>Everyday</button>
-                </div>
                 <div className="search-container">
                 <h6 className="searchLabel">Search By Name:</h6>
-                <div id="fButtons">
+                <div>
                     <input className="searchBar" type="text" value={this.state.filterText} onChange={(e) => this.onChange(e)}></input>
                 </div>
+                </div>
+                <div id="filter-container">
+                <h3>Filter By Category: </h3>
+                    <button id="btn2" onClick={this.myFilter("All")}>All</button>
+                    <button id="btn2" onClick={this.myFilter("gaming")}>Gaming</button>
+                    <button id="btn2" onClick={this.myFilter("studio")}>Studio</button>
+                    <button id="btn2" onClick={this.myFilter("everyday")}>Everyday</button>
                 </div>
                 <div className="cards-container">
                     {
