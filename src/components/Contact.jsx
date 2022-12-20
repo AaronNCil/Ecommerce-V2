@@ -15,7 +15,7 @@ const Contact = () => {
               </ul>
             </div>
             <div class="contact">
-              <h3>email us</h3>
+              <h3>Email us</h3>
               <form>
                 <p>
                   <label>Name</label>

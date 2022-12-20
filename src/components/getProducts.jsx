@@ -29,19 +29,25 @@ export default class Productlist extends React.Component {
         return (
             
             <div>
-                <div className="search-container">
-                <h6 className="searchLabel">Search By Name:</h6>
+            <div id="filter-container">
+            <div className="search-container">
+                <h3 className="searchLabel">Search By Name:</h3>
                 <div>
                     <input className="searchBar" type="text" value={this.state.filterText} onChange={(e) => this.onChange(e)}></input>
                 </div>
                 </div>
-                <div id="filter-container">
-                <h3>Filter By Category: </h3>
+                <h3>Filter By Category: </h3>          
                     <button id="btn2" onClick={this.myFilter("All")}>All</button>
                     <button id="btn2" onClick={this.myFilter("gaming")}>Gaming</button>
                     <button id="btn2" onClick={this.myFilter("studio")}>Studio</button>
                     <button id="btn2" onClick={this.myFilter("everyday")}>Everyday</button>
                 </div>
+                {/* <div className="search-container">
+                <h6 className="searchLabel">Search By Name:</h6>
+                <div>
+                    <input className="searchBar" type="text" value={this.state.filterText} onChange={(e) => this.onChange(e)}></input>
+                </div>
+                </div> */}
                 <div className="cards-container">
                     {
                         products
@@ -60,7 +66,9 @@ export default class Productlist extends React.Component {
                                 return this.state.type === record.category
                             }
 
-                        }).map(props => (
+                        })
+            
+                        .map(props => (
                           <section class="card">
             <div class="card-image">
               <img src={require('../images/' + props.image + '.png')} alt={props.image} />
