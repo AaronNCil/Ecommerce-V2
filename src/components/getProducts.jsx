@@ -1,14 +1,23 @@
 import React from "react";
-import products from './Products.json'
-
+import axios from 'axios';
+import images from './products.json'
 
 export default class Productlist extends React.Component {
     state = {
+        products: [],
         type: "All",
         filterText: ""
     }
 
     //UseState is a react hook that lets you set some state to react component.
+
+    componentDidMount() {
+        axios.get('/api/products') 
+        .then(res => {
+            console.log(res);
+            this.setState({products: res.data});
+        });
+    }
 
     myFilter (type) {
         return () => {
@@ -42,15 +51,9 @@ export default class Productlist extends React.Component {
                     <button id="btn2" onClick={this.myFilter("studio")}>Studio</button>
                     <button id="btn2" onClick={this.myFilter("everyday")}>Everyday</button>
                 </div>
-                {/* <div className="search-container">
-                <h6 className="searchLabel">Search By Name:</h6>
-                <div>
-                    <input className="searchBar" type="text" value={this.state.filterText} onChange={(e) => this.onChange(e)}></input>
-                </div>
-                </div> */}
                 <div className="cards-container">
                     {
-                        products
+                        this.state.products 
                         .filter((props) => {
                             if (this.state.filterText === ""){
                                 return true
@@ -63,24 +66,24 @@ export default class Productlist extends React.Component {
                             if (this.state.type === "All"){
                                 return true 
                             } else {
-                                return this.state.type === record.category
+                                return this.state.type === record.Category
                             }
 
                         })
             
                         .map(props => (
                           <section class="card">
-            <div class="card-image">
-              <img src={require('../images/' + props.image + '.png')} alt={props.image} />
-              </div> 
+                        <div class="card-image">
+              <img src={('../images/' + props.Image + '.png')} alt={props.Image} />
+                         </div>  
              <div class="card-title">
-                 <h1>{props.name}</h1>
+                 <h1>{props.prodName}</h1>
              </div>
              <div class="card-desc">
                  <hr />
-                 <p class="desc">{props.desc}</p>
+                 <p class="desc">{props.prodDesc}</p>
              </div>
-             <label><b>Price: </b>{props.price}</label>
+             <label><b>Price: </b>{props.Price}</label>
              <div class="btn-2">Add to cart</div>
             </section>   
                         ))

@@ -1,28 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6932889e.css",
-    "main.js": "/static/js/main.8d5b4bd6.js",
+    "main.css": "/static/css/main.723e3a0d.css",
+    "main.js": "/static/js/main.2c10581b.js",
     "static/media/headphones.jpg": "/static/media/headphones.8cd4bed9dc6a5c116e86.jpg",
     "static/media/apple.jpg": "/static/media/apple.c75976f15127d1972b89.jpg",
-    "static/media/prodimgresize2.png": "/static/media/prodimgresize2.e94d1d9da11d466a2422.png",
-    "static/media/beatsresize2.png": "/static/media/beatsresize2.3f6f4a21b0520496808c.png",
-    "static/media/prodimgresize5.png": "/static/media/prodimgresize5.d6eab94e9386c46d266a.png",
-    "static/media/prodimgresize3.png": "/static/media/prodimgresize3.1923f3be158a058c5138.png",
     "static/media/headphone3.jpg": "/static/media/headphone3.e531f24bb1aca1a25695.jpg",
-    "static/media/prodimgresize8.png": "/static/media/prodimgresize8.837ae2a6acb6f3647348.png",
-    "static/media/prodimgresize1.png": "/static/media/prodimgresize1.be5904608d817f319856.png",
-    "static/media/prodimgresize7.png": "/static/media/prodimgresize7.f742e03505183225e28e.png",
     "static/media/headrunning.jpg": "/static/media/headrunning.6a45c37ba645d7eb43d4.jpg",
-    "static/media/prodimgresize10.png": "/static/media/prodimgresize10.9108db933f0341f3a751.png",
-    "static/media/prodimgresize12.png": "/static/media/prodimgresize12.a45bd2e77bec79887f52.png",
-    "static/media/prodimgresize6.png": "/static/media/prodimgresize6.dd9c0c970a31eb0b76bc.png",
-    "static/media/prodimgresize4.png": "/static/media/prodimgresize4.dfa9ce688f9fccdbfd46.png",
     "index.html": "/index.html",
-    "main.6932889e.css.map": "/static/css/main.6932889e.css.map",
-    "main.8d5b4bd6.js.map": "/static/js/main.8d5b4bd6.js.map"
+    "main.723e3a0d.css.map": "/static/css/main.723e3a0d.css.map",
+    "main.2c10581b.js.map": "/static/js/main.2c10581b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6932889e.css",
-    "static/js/main.8d5b4bd6.js"
+    "static/css/main.723e3a0d.css",
+    "static/js/main.2c10581b.js"
   ]
 }
