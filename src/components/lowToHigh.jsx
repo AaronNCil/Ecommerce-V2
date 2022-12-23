@@ -13,7 +13,7 @@ export default class Productlist extends React.Component {
     //UseState is a react hook that lets you set some state to react component.
 
     componentDidMount() {
-        axios.get('/api/products') 
+        axios.get('/api/products/lowToHigh') 
         .then(res => {
             console.log(res);
             this.setState({products: res.data});
@@ -80,7 +80,7 @@ export default class Productlist extends React.Component {
                         .map(props => (
                           <section class="card">
                         <div class="card-image">
-              <img src={('images/' + props.Image + '.png')} alt={props.Image} />
+              <img src={require('../images/' + props.Image + '.png')} alt={props.Image} />
                          </div>  
              <div class="card-title">
                  <h1>{props.prodName}</h1>
