@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.723e3a0d.css",
-    "main.js": "/static/js/main.fae779b0.js",
+    "main.css": "/static/css/main.2ff14405.css",
+    "main.js": "/static/js/main.bba9c321.js",
     "static/media/headphones.jpg": "/static/media/headphones.8cd4bed9dc6a5c116e86.jpg",
     "static/media/apple.jpg": "/static/media/apple.c75976f15127d1972b89.jpg",
     "static/media/prodimgresize2.png": "/static/media/prodimgresize2.e94d1d9da11d466a2422.png",
@@ -19,11 +19,11 @@
     "static/media/prodimgresize6.png": "/static/media/prodimgresize6.dd9c0c970a31eb0b76bc.png",
     "static/media/prodimgresize4.png": "/static/media/prodimgresize4.dfa9ce688f9fccdbfd46.png",
     "index.html": "/index.html",
-    "main.723e3a0d.css.map": "/static/css/main.723e3a0d.css.map",
-    "main.fae779b0.js.map": "/static/js/main.fae779b0.js.map"
+    "main.2ff14405.css.map": "/static/css/main.2ff14405.css.map",
+    "main.bba9c321.js.map": "/static/js/main.bba9c321.js.map"
   },
   "entrypoints": [
-    "static/css/main.723e3a0d.css",
-    "static/js/main.fae779b0.js"
+    "static/css/main.2ff14405.css",
+    "static/js/main.bba9c321.js"
   ]
 }

@@ -41,21 +41,24 @@ export default class Productlist extends React.Component {
         return (
             
             <div>
-            <div id="filter-container">
-            <div className="search-container">
+                <div className="product-container">
+                <div className="search-container">
                 <h3 className="searchLabel">Search By Name:</h3>
                 <div>
                     <input className="searchBar" type="text" value={this.state.filterText} onChange={(e) => this.onChange(e)}></input>
                 </div>
                 </div>
-                <h3>Filter By Category: </h3>          
+            <div id="filter-container">
+            <h3>Filter By Category: </h3>          
                     <button id="btn2" onClick={this.myFilter("All")}>All</button>
                     <button id="btn2" onClick={this.myFilter("gaming")}>Gaming</button>
                     <button id="btn2" onClick={this.myFilter("studio")}>Studio</button>
                     <button id="btn2" onClick={this.myFilter("everyday")}>Everyday</button>
-                    <button id="btn2"><Link to ='/products/LowtoHigh'>Sort Low to High</Link></button>
-                    <button id="btn2"><Link to ='/products/HightoLow'>Sort High to Low</Link></button>
-                    <button id="btn2"><Link to ='/products'>Reset</Link></button>
+            <h3>Sort By Price: </h3> 
+                    <Link to ='/products/LowtoHigh' id='btn2'>Low to High</Link>
+                    <Link to ='/products/HightoLow' id='btn2'>High to Low</Link>
+                    <Link to ='/products' id='btn2'>Reset</Link>
+                </div>
                 </div>
                 <div className="cards-container">
                     {
