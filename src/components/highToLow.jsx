@@ -83,7 +83,7 @@ export default class Productlist extends React.Component {
                         .map(props => (
                           <section class="card">
                         <div class="card-image">
-              <img src={('images/' + props.Image + '.png')} alt={props.Image} />
+              <img src={('../images/' + props.Image + '.png')} alt={props.Image} />
                          </div>  
              <div class="card-title">
                  <h1>{props.prodName}</h1>
