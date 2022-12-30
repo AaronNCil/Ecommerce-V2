@@ -41,25 +41,25 @@ export default class Productlist extends React.Component {
         return (
             
             <div>
-            <div className="product-container">
-            <div className="search-container">
-            <h3 className="searchLabel">Search By Name:</h3>
-            <div>
-                <input className="searchBar" type="text" value={this.state.filterText} onChange={(e) => this.onChange(e)}></input>
-            </div>
-            </div>
-        <div id="filter-container">
-        <h3>Filter By Category: </h3>          
-                <button id="btn2" onClick={this.myFilter("All")}>All</button>
-                <button id="btn2" onClick={this.myFilter("gaming")}>Gaming</button>
-                <button id="btn2" onClick={this.myFilter("studio")}>Studio</button>
-                <button id="btn2" onClick={this.myFilter("everyday")}>Everyday</button>
-        <h3>Sort By Price: </h3> 
-                <Link to ='/products/LowtoHigh' id='btn2'>Low to High</Link>
-                <Link to ='/products/HightoLow' id='btn2'>High to Low</Link>
-                <Link to ='/products' id='btn2'>Reset</Link>
-            </div>
-            </div>
+                <div className="product-container">
+                <div className="search-container">
+                <h3 className="searchLabel">Search By Name:</h3>
+                <div>
+                    <input className="searchBar" type="text" value={this.state.filterText} onChange={(e) => this.onChange(e)}></input>
+                </div>
+                </div>
+                <div id="filter-container">
+            <h4>Filter By Category: </h4>          
+                    <button class="btn btn-dark" onClick={this.myFilter("All")}>All</button>
+                    <button class="btn btn-dark" onClick={this.myFilter("gaming")}>Gaming</button>
+                    <button class="btn btn-dark" onClick={this.myFilter("studio")}>Studio</button>
+                    <button class="btn btn-dark" onClick={this.myFilter("everyday")}>Everyday</button>
+            <h4>Sort By Price: </h4> 
+                    <Link to ='/products/LowtoHigh' class="btn btn-dark">Low to High</Link>
+                    <Link to ='/products/HightoLow' class="btn btn-dark">High to Low</Link>
+                    <Link to ='/products' class="btn btn-dark">Reset</Link>
+                </div>
+                </div>
                 <div className="cards-container">
                     {
                         this.state.products 
@@ -83,7 +83,7 @@ export default class Productlist extends React.Component {
                         .map(props => (
                           <section class="card">
                         <div class="card-image">
-              <img src={require('../images/' + props.Image + '.png')} alt={props.Image} />
+              <img src={('images/' + props.Image + '.png')} alt={props.Image} />
                          </div>  
              <div class="card-title">
                  <h1>{props.prodName}</h1>
