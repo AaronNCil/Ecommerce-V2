@@ -8,8 +8,8 @@ const port = process.env.PORT || 3000;
 
 const conn = mysql.createConnection({
     host: "127.0.0.1",
-    user: "ecom",
-    password: "Qweriopa1",
+    user: "root",
+    password: "password",
     database: "ecom"
 })
 
