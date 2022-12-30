@@ -4,12 +4,12 @@ const mysql = require('mysql');
 const app = express();
 
 
-const port = process.env.PORT || 4000; 
+const port = process.env.PORT || 3000; 
 
 const conn = mysql.createConnection({
     host: "127.0.0.1",
-    user: "root",
-    password: "password",
+    user: "ecom",
+    password: "Qweriopa1",
     database: "ecom"
 })
 

@@ -18,7 +18,6 @@ const Home = () => {
       </div>
       
       <section class="col">
-          <h2>MODELS</h2>
         <div class="col">
           <img src={image1} alt="model-img1"/>
           <img src={image2} alt="model-img2"/>
@@ -31,7 +30,7 @@ const Home = () => {
         <div class="botton-modal">
           Shop now to experince the best quality headphones.
         </div>
-        <Link to="/products" className='btn'>EXPLORE</Link>
+        <Link to="/products" className='button'>EXPLORE</Link>
     </aside>
 </main>
     )

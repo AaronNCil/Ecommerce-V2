@@ -48,16 +48,16 @@ export default class Productlist extends React.Component {
                     <input className="searchBar" type="text" value={this.state.filterText} onChange={(e) => this.onChange(e)}></input>
                 </div>
                 </div>
-            <div id="filter-container">
-            <h3>Filter By Category: </h3>          
-                    <button id="btn2" onClick={this.myFilter("All")}>All</button>
-                    <button id="btn2" onClick={this.myFilter("gaming")}>Gaming</button>
-                    <button id="btn2" onClick={this.myFilter("studio")}>Studio</button>
-                    <button id="btn2" onClick={this.myFilter("everyday")}>Everyday</button>
-            <h3>Sort By Price: </h3> 
-                    <Link to ='/products/LowtoHigh' id='btn2'>Low to High</Link>
-                    <Link to ='/products/HightoLow' id='btn2'>High to Low</Link>
-                    <Link to ='/products' id='btn2'>Reset</Link>
+                <div id="filter-container">
+            <h4>Filter By Category: </h4>          
+                    <button class="btn btn-dark" onClick={this.myFilter("All")}>All</button>
+                    <button class="btn btn-dark" onClick={this.myFilter("gaming")}>Gaming</button>
+                    <button class="btn btn-dark" onClick={this.myFilter("studio")}>Studio</button>
+                    <button class="btn btn-dark" onClick={this.myFilter("everyday")}>Everyday</button>
+            <h4>Sort By Price: </h4> 
+                    <Link to ='/products/LowtoHigh' class="btn btn-dark">Low to High</Link>
+                    <Link to ='/products/HightoLow' class="btn btn-dark">High to Low</Link>
+                    <Link to ='/products' class="btn btn-dark">Reset</Link>
                 </div>
                 </div>
                 <div className="cards-container">
